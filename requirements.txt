@@ -1,3 +1,9 @@
-python-telegram-bot==20.3
+herepython-telegram-bot[job-queue]==20.3
+
 python-dotenv==1.0.0
+
 requests==2.31.0
+
+httpcore==0.17.3
+
+httpx==0.24.1
