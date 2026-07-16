@@ -1,4 +1,4 @@
-import logging
+hereimport logging
 import sqlite3
 import os
 from datetime import datetime
@@ -215,4 +215,3 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_msg))
     print("Bot is running...")
     app.run_polling()
-
